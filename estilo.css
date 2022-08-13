@@ -1,0 +1,312 @@
+*{
+	box-sizing: border-box;
+	margin:0px;
+	padding: 0px;
+}
+
+:root{
+	--texto1:'Josefin Sans', sans-serif;
+	--texto2:'Mitr', sans-serif;
+
+}
+
+.container{
+	display: grid;
+	grid-template-areas: 
+	"topo topo topo topo"
+	"menu menu menu menu"
+	"img-principal img-principal img-principal img-principal"
+	"img-principal img-principal img-principal img-principal"
+	"img-principal img-principal img-principal img-principal"
+	"conteudo conteudo conteudo conteudo"
+	"titulo titulo titulo titulo"
+	"textEsq textEsq textDir textDir"
+	"banner banner banner banner"
+	"rodape rodape rodape rodape";
+}
+
+.topo{
+	grid-area: topo;
+}
+
+.logo{
+	display: flex;
+	justify-content: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.logo img{
+	height: 80px;
+}
+
+.menu{
+	grid-area: menu;
+	display: flex;
+	justify-content: center;
+}
+
+nav ul{
+	display: flex;
+}
+
+nav ul li{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 20px;
+	list-style: none;
+	color:#000000;
+}
+
+nav ul a{
+	text-decoration: none;
+	font-family: var(--texto1);
+	font-size: 18px;
+}
+
+a:hover li{
+	background-color: #ff0000;
+	color:#ffffff;
+}
+
+.img-principal{
+	grid-area: img-principal;
+ 	background-image: url(./imagens/bowie3.jpg);
+ 	background-attachment: fixed;
+ 	height: 500px;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-position:top;
+}
+
+.conteudo{
+	grid-area: conteudo;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.titulo{
+	font-family: var(--texto2);
+	text-align: center;
+	font-size: 25px;
+	grid-area: titulo;
+}
+
+.infor{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 20px;
+}
+
+.textEsq{
+	width: 50%;
+	grid-area: textEsq;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: justify;
+	color:#000000;
+	font-family: var(--texto2);
+
+}
+
+.textEsq h3{
+	border-bottom: 2px solid #000;
+	margin-right: -50px;
+	padding-right: -50px;
+}
+
+.textDir{
+	width: 50%;
+	grid-area: textDir;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: justify;
+	color:#000000;
+	font-family: var(--texto2);
+	border-left: 2px solid #000;
+}
+
+.textDir h3{
+	padding-top: 25px;
+	border-bottom: 2px solid #000;
+	margin-left: -50px;
+	padding-left: 50px;
+}
+
+.textEsq1{
+	width: 50%;
+	grid-area: textEsq;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: justify;
+	color:#000000;
+	font-family: var(--texto2);
+}
+
+.textEsq1 h3{
+	border-bottom: 2px solid #000;
+	margin-right: -50px;
+	padding-right: 50px;
+}
+
+.textDir1{
+	width: 50%;
+	grid-area: textDir;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: justify;
+	color:#000000;
+	font-family: var(--texto2);
+	border-left: 2px solid #000;
+}
+
+.textDir1 h3{
+	padding-top: 25px;
+	border-bottom: 2px solid #000;
+	margin-left: -50px;
+	padding-left: 50px;
+}
+
+.textEsq3{
+	width: 50%;
+	grid-area: textEsq;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: justify;
+	color:#000000;
+	font-family: var(--texto2);
+}
+
+.textEsq3 h3{
+	border-bottom: 2px solid #000;
+	margin-right: -50px;
+	padding-right: 50px;
+}
+
+.textDir3{
+	width: 50%;
+	grid-area: textDir;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: justify;
+	color:#000000;
+	font-family: var(--texto2);
+	border-left: 2px solid #000;
+}
+
+.textDir3 h3{
+	padding-top: 25px;
+	border-bottom: 2px solid #000;
+	margin-left: -50px;
+	padding-left: 50px;
+}
+
+.banner-img{
+	grid-area: banner;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-image: url(banner.jpg);
+	height: 500px;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-position:center;
+}
+
+.rodape{
+	grid-area: rodape;
+	background-color:#3c3d41;
+	height: 300px;
+}
+
+.criado{
+	grid-area: criado;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #343434;
+	color:#b3b3b3;
+	font-family: var(--texto2);
+	height: 50px;
+}
+
+.rodape{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.logo-rodape img{
+	height: 120px;
+}
+
+.titulos{
+	color:#ffffff;
+	font-family: arial;
+	margin-bottom: 10px;
+}
+
+.contato li{
+	list-style: none;
+	font-family: arial;
+	padding-top: 10px;
+}
+
+.opcoes{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.opcoes a{
+	text-decoration: none;
+	color:#b3b3b3;
+}
+
+.opcoes ul a li:hover{
+	background-color: #3c3d41;
+	text-decoration:underline;
+}
+
+.rede-sociais img{
+	height: 30px;
+}
+
+.rede-sociais button{
+	margin-top: 20px;
+	width: 175px;
+	border-radius: 20px;
+	font-size:15px;
+	background-color: #d74c6b;
+	font-family: arial;
+	outline: 0;
+	color:#ffffff;
+	padding: 8px;
+	cursor: pointer;
+}
+
+button:hover{
+	background-color: #f798ad;
+}
+
+.criado a{
+	color:#fffc00;
+	text-decoration:none;
+	padding-left: 5px;
+}
+
+.criado a:hover{
+	color:#ffffff;
+}
