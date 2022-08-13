@@ -1,0 +1,264 @@
+
+
+@media only screen and (min-width: 412px) and (max-width: 550px) {
+
+	.logo img{
+		height: 70px;
+	}
+
+	.titulo{
+		font-size: 22px;
+	}
+
+	nav ul li{
+		font-size: 18px;
+	}
+
+	.textEsq h3{
+		text-align: center;
+		margin-right: 0px;
+	}
+
+	.textEsq{
+		width: 100%;
+		padding-top: 20px;
+	}
+
+	.textEsq1 h3{
+		text-align: center;
+		padding-right: 0px;
+		margin-right: 0px;
+	}
+
+	.textEsq1{
+		width: 100%;
+		padding-top: 20px;
+	}
+
+	.textEsq3 h3{
+		text-align: center;
+		padding-right: 0px;
+		margin-right: 0px;
+	}
+
+	.textEsq3{
+		width: 100%;
+		padding-top: 20px;
+	}
+
+	.textDir h3{
+		text-align: center;
+		padding-left: 0px;
+		margin-left: 0px;
+		padding-top: 0px;
+	}
+
+	.textDir{
+		width: 100%;
+		padding-top: 20px;
+	}
+
+	.textDir1 h3{
+		text-align: center;
+		padding-left: 0px;
+		margin-left: 0px;
+		padding-top: 0px;
+	}
+
+	.textDir1{
+		width: 100%;
+		padding-top: 20px;
+	}
+
+	.textDir3 h3{
+		text-align: center;
+		padding-left: 0px;
+		margin-left: 0px;
+		padding-top: 0px;
+	}
+
+	.textDir3{
+		width: 100%;
+		padding-top: 20px;
+	}
+
+
+	.rodape{
+		flex-wrap: wrap;
+		height: 400px;
+	}
+
+	.banner-img{
+		height: 0px;
+	}
+
+	.logo-rodape img{
+		height: 100px;
+		margin-top: 10px;
+		margin-left: 175px;
+		margin-right: 175px;
+	}
+
+	.contato{
+		display: flex;
+	}
+
+	.contato li{
+		font-size: 15px;
+	}
+
+	.titulos{
+		font-size: 15px;
+	}
+
+	.rede-sociais{
+		padding: 10px;
+		margin-left: 175px;
+		margin-right: 175px;
+		margin-bottom: 20px;
+	}
+
+	.rede-sociais img{
+		height: 25px;
+	}
+
+	.rede-sociais button{
+		width: 135px;
+		margin-top: 10px;
+		margin-left: 18px;
+		font-size: 18px;
+	}
+
+}
+
+
+
+
+
+@media only screen and (max-width: 411px) {
+
+	.logo img{
+		height: 70px;
+	}
+
+	.titulo{
+		font-size: 22px;
+	}
+
+	nav ul li{
+		font-size: 18px;
+	}
+
+	.textEsq h3{
+		text-align: center;
+		margin-right: 0px;
+	}
+
+	.textEsq{
+		width: 100%;
+		padding-top: 20px;
+	}
+
+	.textEsq1 h3{
+		text-align: center;
+		padding-right: 0px;
+		margin-right: 0px;
+	}
+
+	.textEsq1{
+		width: 100%;
+		padding-top: 20px;
+	}
+
+	.textEsq3 h3{
+		text-align: center;
+		padding-right: 0px;
+		margin-right: 0px;
+	}
+
+	.textEsq3{
+		width: 100%;
+		padding-top: 20px;
+	}
+
+	.textDir h3{
+		text-align: center;
+		padding-left: 0px;
+		margin-left: 0px;
+		padding-top: 0px;
+	}
+
+	.textDir{
+		width: 100%;
+		padding-top: 20px;
+	}
+
+	.textDir1 h3{
+		text-align: center;
+		padding-left: 0px;
+		margin-left: 0px;
+		padding-top: 0px;
+	}
+
+	.textDir1{
+		width: 100%;
+		padding-top: 20px;
+	}
+
+	.textDir3 h3{
+		text-align: center;
+		padding-left: 0px;
+		margin-left: 0px;
+		padding-top: 0px;
+	}
+
+	.textDir3{
+		width: 100%;
+		padding-top: 20px;
+	}
+
+
+	.rodape{
+		flex-wrap: wrap;
+		height: 400px;
+	}
+
+	.banner-img{
+		height: 0px;
+	}
+
+	.logo-rodape img{
+		height: 100px;
+		margin-top: 10px;
+		margin-left: 109px;
+		margin-right: 109px;
+	}
+
+	.contato{
+		display: flex;
+	}
+
+	.contato li{
+		font-size: 15px;
+	}
+
+	.titulos{
+		font-size: 15px;
+	}
+
+	.rede-sociais{
+		margin-bottom: 20px;
+	}
+
+	.rede-sociais img{
+		height: 28px;
+	}
+
+	.rede-sociais button{
+		width: 135px;
+		margin-top: 10px;
+		margin-left: 18px;
+		font-size: 18px;
+	}
+
+}
